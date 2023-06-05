@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author yangwl@belink.com
+ * @author tecyang@gmail.com
  * @version V1.0
  * @title
  * @description
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWordController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String add() {
+    public String hello() {
         return "hello world!";
     }
 }
