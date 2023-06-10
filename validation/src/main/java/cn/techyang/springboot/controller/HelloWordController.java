@@ -1,5 +1,8 @@
 package cn.techyang.springboot.controller;
 
+import cn.techyang.springboot.controller.vo.HelloRequestVo;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWordController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String hello() {
-        return "hello world!";
+    public String hello(@RequestBody @Validated  HelloRequestVo helloRequestVo) {
+        return "hello world!" + helloRequestVo.getUserName();
     }
 }
