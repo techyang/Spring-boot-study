@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cn.techyang</groupId>
-	<artifactId>hello-world</artifactId>
+	<artifactId>validation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot</name>
 	<description>spring-boot sdudy</description>
@@ -32,7 +32,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
