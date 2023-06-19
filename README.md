@@ -5,4 +5,4 @@ Spring-boot-study (spring-boot 学习)
 ## resful
 一个简单的resful程序
 ## validation
-请求参数交易程序
+请求参数校验程序
