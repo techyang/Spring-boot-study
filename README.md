@@ -1,5 +1,5 @@
 # Spring-boot-study
-Spring-boot-study (spring-boot 学习),给出一些简单易学的小例子,供大家学习.
+Spring-boot-study (spring-boot 学习小例子),给出一些简单易学的小例子,供大家学习.
 ## hello-world
 一个简单的入门hello-world程序
 ## resful
