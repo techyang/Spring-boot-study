@@ -2,7 +2,7 @@ package cn.techyang.springboot.controller.vo;
 
 import lombok.Data;
 
-import javax.annotation.sql.DataSourceDefinition;
+import javax.validation.constraints.NotBlank;
 
 /**
  * @author tecyang@gmail.com
@@ -14,6 +14,8 @@ import javax.annotation.sql.DataSourceDefinition;
 
 @Data
 public class HelloRequestVo {
+    @NotBlank
     String userName;
+    @NotBlank
     String age;
 }
