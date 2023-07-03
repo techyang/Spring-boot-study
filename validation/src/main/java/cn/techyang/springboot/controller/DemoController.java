@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2023-06-04 09:59
  */
 @RestController
-public class HelloWordController {
+public class DemoController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello(@RequestBody @Validated  HelloRequestVo helloRequestVo) {
