@@ -7,12 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author tecyang@gmail.com
  * @version V1.0
- * @title
+ * @title restful 示例
  * @description
  * @date 2023-06-04 09:59
  */
 @RestController
 public class DemoController {
+
+
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello() {
